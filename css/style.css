@@ -1,0 +1,152 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Laila', serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+
+/* Background image section start */
+
+/*Each new section with background image must be added here...*/
+.backgroundImage1, .backgroundImage2, .backgroundImage3, .backgroundImage4, .backgroundImage5, .backgroundImage6 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /*Change to "scroll" to remove parallax effect*/
+}
+
+/*and here*/
+.backgroundImage1 {
+  background-image: url('https://dl.dropboxusercontent.com/s/rdmcg9se5ubsl7w/austin-schmid-90781-unsplash.jpg?dl=0');
+  min-height: 100%;
+}
+.backgroundImage2 {
+  background-image: url('https://dl.dropboxusercontent.com/s/bct6nbr7y9f4jyu/susan-yin-86157-unsplash.jpg?dl=0');
+  min-height: 100%;
+}
+.backgroundImage3 {
+  background-image: url('https://dl.dropboxusercontent.com/s/rnhy8ash0r6ltan/susan-yin-1165303-unsplash.jpg?dl=0');
+  min-height: 100%;
+}
+.backgroundImage4 {
+  background-image: url('https://dl.dropboxusercontent.com/s/9g3lldmi7g7705a/david-hertle-766998-unsplash.jpg?dl=0');
+  min-height: 100%;
+}
+.backgroundImage5 {
+  background-image: url('https://dl.dropboxusercontent.com/s/prj5lxitccph0ln/chris-barbalis-326466-unsplash.jpg?dl=0');
+  min-height: 100%;
+}
+.backgroundImage6 {
+  background-image: url('https://dl.dropboxusercontent.com/s/o5nc7gobsytixo6/brandon-jacoby-306202-unsplash.jpg?dl=0');
+  min-height: 100%;
+}
+
+/* Background image section end */
+
+/* Header styling begins */
+.headerText1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: wheat;
+  text-transform: uppercase
+}
+
+/*
+.border {
+  background-color:#2d2006;
+  padding: 20px;
+}
+*/
+
+/* Headers styling ends */
+
+
+/* Main text section styling begins */
+
+.section1 {
+  text-align: center;
+  padding: 50px 80px;
+  background-color:#004545;
+  color: wheat;
+}
+
+/* Main text section styling ends */
+
+
+/* Photo container styling starts */
+
+.photoContainer {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 75px;
+  grid-auto-flow: dense;
+}
+
+.horizontal {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+
+.vertical {
+  grid-row: span 4;
+  grid-column: span 2;
+}
+
+.big {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+.photoContainer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.photoContainer > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.big:hover {
+transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+transition-duration: 2s;
+}
+.vertical:hover {
+transform: scale(2);
+transition-duration: 2s;
+}
+.horizontal:hover {
+transform: scale(2);
+transition-duration: 2s;
+}
+.small:hover {
+transform: scale(3);
+transition-duration: 2s;
+}
+
+/* Photo container styling ends */
+
+
+.fonts-to-choose-from {
+font-family: 'Laila', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Cairo', sans-serif;
+}
