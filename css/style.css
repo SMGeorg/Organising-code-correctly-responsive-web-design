@@ -22,33 +22,33 @@ body, html {
 
 /*and here*/
 .backgroundImage1 {
-  /background-image: url('https://dl.dropboxusercontent.com/s/rdmcg9se5ubsl7w/austin-schmid-90781-unsplash.jpg?dl=0');
-  background-image: url('https://pp.userapi.com/c847019/v847019049/20cf50/5QDy49rH3Jw.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/rdmcg9se5ubsl7w/austin-schmid-90781-unsplash.jpg?dl=0');
+  /background-image: url('https://pp.userapi.com/c847019/v847019049/20cf50/5QDy49rH3Jw.jpg');
   min-height: 100%;
 }
 .backgroundImage2 {
-  /background-image: url('https://dl.dropboxusercontent.com/s/bct6nbr7y9f4jyu/susan-yin-86157-unsplash.jpg?dl=0');
-  background-image: url('https://pp.userapi.com/c847019/v847019049/20cf3f/ZqCnaJC5HhM.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/bct6nbr7y9f4jyu/susan-yin-86157-unsplash.jpg?dl=0');
+  /background-image: url('https://pp.userapi.com/c847019/v847019049/20cf3f/ZqCnaJC5HhM.jpg');
   min-height: 100%;
 }
 .backgroundImage3 {
-  /background-image: url('https://dl.dropboxusercontent.com/s/rnhy8ash0r6ltan/susan-yin-1165303-unsplash.jpg?dl=0');
-  background-image: url('https://pp.userapi.com/c847019/v847019049/20cf62/Yj0StS_lAwE.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/rnhy8ash0r6ltan/susan-yin-1165303-unsplash.jpg?dl=0');
+  /background-image: url('https://pp.userapi.com/c847019/v847019049/20cf62/Yj0StS_lAwE.jpg');
   min-height: 100%;
 }
 .backgroundImage4 {
-  /background-image: url('https://dl.dropboxusercontent.com/s/9g3lldmi7g7705a/david-hertle-766998-unsplash.jpg?dl=0');
-  background-image: url('https://pp.userapi.com/c847019/v847019049/20cf6a/U9I4ST0Cvvc.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/9g3lldmi7g7705a/david-hertle-766998-unsplash.jpg?dl=0');
+  /background-image: url('https://pp.userapi.com/c847019/v847019049/20cf6a/U9I4ST0Cvvc.jpg');
   min-height: 100%;
 }
 .backgroundImage5 {
-  /background-image: url('https://dl.dropboxusercontent.com/s/prj5lxitccph0ln/chris-barbalis-326466-unsplash.jpg?dl=0');
-  background-image: url('https://pp.userapi.com/c847019/v847019049/20cf72/TyPaeMWU-dc.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/prj5lxitccph0ln/chris-barbalis-326466-unsplash.jpg?dl=0');
+  /background-image: url('https://pp.userapi.com/c847019/v847019049/20cf72/TyPaeMWU-dc.jpg');
   min-height: 100%;
 }
 .backgroundImage6 {
-  /background-image: url('https://dl.dropboxusercontent.com/s/o5nc7gobsytixo6/brandon-jacoby-306202-unsplash.jpg?dl=0');
-  background-image: url('https://pp.userapi.com/c847019/v847019049/20cf81/7Lvm36ILIWI.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/o5nc7gobsytixo6/brandon-jacoby-306202-unsplash.jpg?dl=0');
+  /background-image: url('https://pp.userapi.com/c847019/v847019049/20cf81/7Lvm36ILIWI.jpg');
   min-height: 100%;
 }
 
